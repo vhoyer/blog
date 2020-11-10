@@ -7,7 +7,8 @@ tags:
   - Tags
 ---
 Esse é um repost do texto que eu postei originalmente no [medium](https://medium.com/@vhoyer/logic-gates-c0d5032fc5ac), estou repostando aqui por motivos históricos.
----
+
+***
 
 ***1. Introdução***
 
