@@ -9,7 +9,8 @@ tags:
   - Tags
 ---
 Repost from [dev.to](https://dev.to/vhoyer/functional-components-in-vue-js-20fl) for historical reasons.
----
+
+***
 
 So, let's start from the beginning, what are functional components? Well, those are components that are more lightweight because they don't have any data, or computed, nor lifecycle events. They can be treated as just functions that are re-executed once the parameters passed down to it changes.
 
