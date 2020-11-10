@@ -9,7 +9,7 @@ tags:
 ---
 Third repost haha, first on [medium](https://medium.com/@vhoyer/como-publicar-seu-projeto-xamarin-ios-na-appstore-8925e7686af5), second on [dev.to](https://dev.to/vhoyer/como-publicar-seu-projeto-xamarin-ios-na-appstore-258), now here. Again, for historical reasons.
 
----
+***
 
 Tá, vamo lá. Primeiramente, gostaria de dizer que eu achei esse processo é bem mais complicado do precisava ser, mas quem sou eu, né? Outra coisa que eu achei muito complicado foi achar informações sobre como fazer isso, então eu to aqui e vou reportar meu processo de como eu consegui fazer isso.
 
