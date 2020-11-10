@@ -27,7 +27,7 @@ Lendo esse post, acredito que você vai chegar à algumas conclusões sobre meus
 
 Ok, suponhamos que você tenha o seguinte componente: 
 
-```vue
+```html
 <template>
   <div
     ref="origin"
