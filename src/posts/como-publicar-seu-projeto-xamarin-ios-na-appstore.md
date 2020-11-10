@@ -3,7 +3,7 @@ title: Como publicar seu projeto Xamarin.iOS na AppStore
 description: Passo a passo de como eu consegui publicar um app Xamarin.iOS na
   AppStore sendo minha primeira experiencia com um mac.
 author: Vinícius Hoyer
-date: 2020-11-10T22:14:14.916Z
+date: 2018-09-14T22:14:14.916Z
 tags:
   - Tags
 ---
