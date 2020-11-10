@@ -5,7 +5,7 @@ description: Passo a passo de como eu consegui publicar um app Xamarin.iOS na
 author: Vinícius Hoyer
 date: 2018-09-14T22:14:14.916Z
 tags:
-  - Tags
+  - Portuguese
 ---
 Third repost haha, first on [medium](https://medium.com/@vhoyer/como-publicar-seu-projeto-xamarin-ios-na-appstore-8925e7686af5), second on [dev.to](https://dev.to/vhoyer/como-publicar-seu-projeto-xamarin-ios-na-appstore-258), now here. Again, for historical reasons.
 

@@ -7,7 +7,7 @@ description: So, yesterday was my first day working! yaaaay. It’s a developer
 author: Vinícius Hoyer
 date: 2018-01-20T21:12:00.801Z
 tags:
-  - Tags
+  - English
 ---
 So this is a "reupload" for the very first publication I did on [medium](https://medium.com/@vhoyer/hello-work-wasnt-it-world-84e069a197a0), I'm reposting it here for historical reasons.
 

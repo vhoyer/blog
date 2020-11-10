@@ -4,7 +4,7 @@ description: Um básico sobre acessibilidade
 author: Vinícius Hoyer
 date: 2019-07-18T22:28:39.476Z
 tags:
-  - Tags
+  - Portuguese
 ---
 Repost from [dev.to](https://dev.to/vhoyer/na-duvida-use-um-botao-32gj), for historical reasons.
 
@@ -61,7 +61,7 @@ Ih, rapaz, olha, é considerada **péssima** prática colocar `outline: none`. S
 
 O primeiro problema que eu noto é que: se o usuário estiver navegando no seu site exclusivamente com o teclado — seja por paralisia, braço quebrado ou porque ele tá segurando um sanduíche com a outra mão — esse usuário não vai conseguir apertar esse botão, porque ele não é _focável_. Tenta você selecionar esse botão só com <kbd>Tab</kbd>.
 
-Para resolver esse problema, você pode definir explicitamente no HTML que o `.my-button` é focável com: `tabindex="0"`. O tal do [tabindex](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/tabindex), com valor 0, serve pra dizer pro _browser_ que esse elemento pode **sim** ser focado, independentemente de qual _tag_ que você está usando. 
+Para resolver esse problema, você pode definir explicitamente no HTML que o `.my-button` é focável com: `tabindex="0"`. O tal do [tabindex](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/tabindex), com valor 0, serve pra dizer pro _browser_ que esse elemento pode **sim** ser focado, independentemente de qual _tag_ que você está usando.
 
 ```diff
 @@ -11,6 +11,6 @@

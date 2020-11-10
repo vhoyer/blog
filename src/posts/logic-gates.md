@@ -4,7 +4,7 @@ description: Esse é um projeto que eu fiz para a faculdade, porque não compart
 author: Vinícius Hoyer
 date: 2019-03-31T22:24:14.477Z
 tags:
-  - Tags
+  - Portuguese
 ---
 Esse é um repost do texto que eu postei originalmente no [medium](https://medium.com/@vhoyer/logic-gates-c0d5032fc5ac), estou repostando aqui por motivos históricos.
 
@@ -28,25 +28,17 @@ O interessante é ver que a definição da porta XOR bate com o projeto, sendo u
 
 ***3. Ilustrações***
 
-![Image for post](https://miro.medium.com/max/30/0*IT7YVgcPRPsi4iuL?q=20)
-
 ![Image for post](https://miro.medium.com/max/1600/0*IT7YVgcPRPsi4iuL)
 
 Figura 1 — diagrama ilustrativo de uma porta lógica OR\[1].
-
-![Image for post](https://miro.medium.com/max/30/0*ll3615PwUeBQUSlo?q=20)
 
 ![Image for post](https://miro.medium.com/max/1600/0*ll3615PwUeBQUSlo)
 
 Figura 2 — diagrama ilustrativo de uma porta lógica AND\[1].
 
-![Image for post](https://miro.medium.com/max/30/0*0GI46iP57gs8rJvG?q=20)
-
 ![Image for post](https://miro.medium.com/max/559/0*0GI46iP57gs8rJvG)
 
 Figura 3 — projeto lógico de uma porta lógica NOT\[2].
-
-![Image for post](https://miro.medium.com/max/30/0*yx3dPsXuxtsupvf6?q=20)
 
 ![Image for post](https://miro.medium.com/max/316/0*yx3dPsXuxtsupvf6)
 
@@ -58,6 +50,7 @@ Após essa jornada espero que você tenha aprendido algo novo hoje, já se pode 
 
 ***5. Referências***
 
-\[1]<https://www.youtube.com/watch?v=VBDoT8o4q00>\[2]<https://www.youtube.com/watch?v=dd4Ni-SFKX4>
+- [1]<https://www.youtube.com/watch?v=VBDoT8o4q00>
+- [2]<https://www.youtube.com/watch?v=dd4Ni-SFKX4>
 
 Todas as imágens foram tiradas desses dois vídeos, não tenho direito algum sobre as mesmas, foram prints tirados desses vídeos.

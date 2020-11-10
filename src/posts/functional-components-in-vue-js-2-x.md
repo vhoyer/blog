@@ -6,7 +6,7 @@ description: A little help for making basic stuff with functional components in
 author: Vinícius Hoyer
 date: 2019-08-30T22:38:57.603Z
 tags:
-  - Tags
+  - English
 ---
 Repost from [dev.to](https://dev.to/vhoyer/functional-components-in-vue-js-20fl) for historical reasons.
 

@@ -10,7 +10,7 @@ description: "Disclaimers: Além de tutorial o seguinte conteúdo é uma opnião
 author: Vinícius Hoyer
 date: 2019-07-24T22:42:07.666Z
 tags:
-  - Tags
+  - Portuguese
 ---
 Repost from [dev.to](https://dev.to/vhoyer/como-escrever-tests-jest-para-componentes-vue-que-ja-existem-dentro-da-sua-aplicacao-2hhf) for historical reasons.
 
@@ -29,7 +29,7 @@ Lendo esse post, acredito que você vai chegar à algumas conclusões sobre meus
 - agrupar todos os testes dentro de um describe "pai";
 - agrupar interações do usuário dentro de describes.
 
-Ok, suponhamos que você tenha o seguinte componente: 
+Ok, suponhamos que você tenha o seguinte componente:
 
 ```html
 <template>
