@@ -12,6 +12,10 @@ date: 2019-07-24T22:42:07.666Z
 tags:
   - Tags
 ---
+Repost from [dev.to](https://dev.to/vhoyer/como-escrever-tests-jest-para-componentes-vue-que-ja-existem-dentro-da-sua-aplicacao-2hhf) for historical reasons.
+
+***
+
 > Disclaimers:
 > Além de tutorial o seguinte conteúdo é uma opnião minha e totalmente pessoal de como deixar seu código perfeitinho e bem organizado, siga por conta e risco. Ao escrever esse post eu estou assumindo que você sabe o que são testes unitários, sabe que testes são muito importantes para a saúde de uma _code base_, e sabe o que é o lance do Arange>Act>Assert
 
