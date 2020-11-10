@@ -29,7 +29,7 @@ collections:
         name: "tags"
         multiple: true
         create: true
-        options: ["Tags", "created", "from", "config.yml"]
+        options: ["Portuguese", "English"]
   - label: "Settings"
     name: "settings"
     editor:
