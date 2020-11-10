@@ -8,7 +8,7 @@ description: "Disclaimers: Além de tutorial o seguinte conteúdo é uma opnião
   importantes para a saúde de uma code base, e sabe o que é o lance do
   Arange>Act>Assert"
 author: Vinícius Hoyer
-date: 2020-11-10T22:42:07.666Z
+date: 2019-07-24T22:42:07.666Z
 tags:
   - Tags
 ---
