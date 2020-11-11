@@ -11,6 +11,9 @@ author: Vinícius Hoyer
 date: 2019-07-24T22:42:07.666Z
 tags:
   - Portuguese
+  - Tech
+  - Vue
+  - Tests
 ---
 Repost from [dev.to](https://dev.to/vhoyer/como-escrever-tests-jest-para-componentes-vue-que-ja-existem-dentro-da-sua-aplicacao-2hhf) for historical reasons.
 

@@ -5,6 +5,7 @@ author: Vinícius Hoyer
 date: 2019-03-31T22:24:14.477Z
 tags:
   - Portuguese
+  - Tech
 ---
 Esse é um repost do texto que eu postei originalmente no [medium](https://medium.com/@vhoyer/logic-gates-c0d5032fc5ac), estou repostando aqui por motivos históricos.
 

@@ -29,7 +29,14 @@ collections:
         name: "tags"
         multiple: true
         create: true
-        options: ["Portuguese", "English"]
+        options:
+          - Portuguese
+          - English
+          - Tech
+          - Language
+          - Accessibility
+          - Vue
+          - Tests
   - label: "Settings"
     name: "settings"
     editor:

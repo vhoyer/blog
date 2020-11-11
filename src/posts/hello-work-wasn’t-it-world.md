@@ -8,6 +8,7 @@ author: Vinícius Hoyer
 date: 2018-01-20T21:12:00.801Z
 tags:
   - English
+  - Tech
 ---
 So this is a "reupload" for the very first publication I did on [medium](https://medium.com/@vhoyer/hello-work-wasnt-it-world-84e069a197a0), I'm reposting it here for historical reasons.
 
