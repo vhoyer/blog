@@ -1,5 +1,5 @@
 ---
-title: line debugging on JS trick
+title: Line debugging on JS trick
 description: A trick that will help you debug code changing minimally your code
 author: Vinícius Hoyer
 date: 2020-11-18T14:41:42.525Z
@@ -15,7 +15,7 @@ Object.entries({
   lime: { pt: 'limão', color: 'green' },
 })
   .filter(([_key, value]) => value.color === 'red')
-  .map(([key, value]) => [key, `${key} in Portuguese is ${value.pt}`])
+  .map(([key, value]) => `${key} in Portuguese is ${value.pt}`)
   .join(';\n ')
 ```
 
@@ -27,7 +27,7 @@ Object.entries({
   lime: { pt: 'limão', color: 'green' },
 })
   .filter(([_key, value]) => value.color === 'red')
-  .map(([key, value], i, a) => (console.log(a), [key, `${key} in Portuguese is ${value.pt}`]))
+  .map(([key, value], i, a) => (console.log(a), `${key} in Portuguese is ${value.pt}`))
   .join(';\n ')
 ```
 
