@@ -60,7 +60,7 @@ To find this out, I again tried to search the Nuxt documentation, but apparently
 
 After some long stack trace explorations I found out the `StyleLoader` was being invoked by `WebpackBaseConfig` which was extended by `WebpackClientConfig` which was instantiated by `WebpackBuilder` which used `BuilderConfig` which received as argument the `loadNuxtConfig` return value which passed through a `defu` function which fiiinally required the `nuxt.config.js` file (which you can change the location, but in our case we didn't and I think you should avoid changing it too, but that is besides the point here).
 
-Well, I could have figured it just by brute forcing through some common places for this configurations, but I didn't, I tried for a while, but I was complicating things trying to add the alias object deeply nested inside other configurations, but in fact it was just adding a `alias` object to the root of the `nuxt.config` file.
+Well, I could have figured it just by brute forcing through some common places for this configurations, but I didn't, I tried for a while, but I was complicating things trying to add the alias object deeply nested inside other configurations, but in fact it was just adding an `alias` object to the root of the `nuxt.config` file.
 
 ## The solution
 
