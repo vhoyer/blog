@@ -33,9 +33,9 @@ Inside the Zilla Core, the Sass one, we use as a dependency a library called `sw
 And this time, for reasons that I really don't have a clue why this was happening, when we imported this file into one of our projects (and only this one), the import would fail saying it couldn't find `~swiper/css/swiper.min.css` inside `node_modules/<package_name>/src`.
 
 ```
- ERROR  in ./node_modules/<package_name>/src/zilla.scss                                                                          friendly-errors 12:45:04
+[ERROR] in ./node_modules/<package_name>/src/zilla.scss
 
-Module build failed (from ./node_modules/postcss-loader/src/index.js):                                                              friendly-errors 12:45:04
+Module build failed (from ./node_modules/postcss-loader/src/index.js):
 Error: Can't resolve '~swiper/css/swiper.min.css' in '/home/<project path>/node_modules/<package_name>/src'
     at /home/<project path>/node_modules/postcss-import-resolver/node_modules/enhanced-resolve/lib/Resolver.js:209:21
 ...
