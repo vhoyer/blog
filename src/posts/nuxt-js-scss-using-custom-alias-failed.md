@@ -50,7 +50,17 @@ My manager, figuring it would be a super simple 5 minutes solved bug, sends me t
 
 > Ok, I spent a hole day and then some trying to figure this one out, but I'm only gonna post the right paths I took here to be concise, just don't think you can't do it yourself or anything like that, everyone can do those things given the right time.
 
-My first step was to look for the package in the stack trace `postcss-import-resolver`.
+My first step was to look for the package in the stack trace `postcss-import-resolver`. Looking at the the [code for this package on github](https://github.com/nuxt-contrib/postcss-import-resolver) I noticed it used [webpacks' enhanced resolve library](https://github.com/webpack/enhanced-resolve), which I know from other battles, so I new it supported aliases.
+
+So after looking for documentations about this, I decided to, once again, search code on github, but this time I crawled through [Nuxt's code](https://github.com/nuxt/nuxt.js/tree/dev), and found [where the postcss plugin was being initialized](https://github.com/nuxt/nuxt.js/blob/e934da3c36c5fcfe1f6061fd65eefa8af9ea1db1/packages/webpack/src/utils/postcss.js#L70), as well as a hint [where I could configure my failed alias](https://github.com/nuxt/nuxt.js/blob/e934da3c36c5fcfe1f6061fd65eefa8af9ea1db1/packages/webpack/src/utils/postcss.js#L49).
+
+After this, I opened my project's node_modules folder and began adding `debugger` commands inside nuxt's code, the first stop was the function [`postcssImportAlias`](https://github.com/nuxt/nuxt.js/blob/e934da3c36c5fcfe1f6061fd65eefa8af9ea1db1/packages/webpack/src/utils/postcss.js#L48), there I used the chrome inspector (running nuxt with using `npx --node-arg="--inspect" nuxt`) to add manually my custom alias to `buildContext.options.alias`. After the alias was inserted, and the rest of the build process finished, I could verify that this approach really worked, so now I only had to discover which public API nuxt offered me to properly add this value to the, now infamous, `buildContext.options.alias`.
+
+To find this out, I again tried to search the Nuxt documentation, but apparently I'm bad at searching because I couldn't find any details about this. The only option left for me was to keep adding `debugger` statements inside nuxt's code to find out where I could insert my alias.
+
+After some long stack trace explorations I found out the `StyleLoader` was being invoked by `WebpackBaseConfig` which was extended by `WebpackClientConfig` which was instantiated by `WebpackBuilder` which used `BuilderConfig` which received as argument the `loadNuxtConfig` return value which passed through a `defu` function which fiiinally required the `nuxt.config.js` file (which you can change the location, but in our case we didn't and I think you should avoid changing it too, but that is besides the point here).
+
+Well, I could have figured it just by brute forcing through some common places for this configurations, but I didn't, I tried for a while, but I was complicating things trying to add the alias object deeply nested inside other configurations, but in fact it was just adding a `alias` object to the root of the `nuxt.config` file.
 
 ## The solution
 
