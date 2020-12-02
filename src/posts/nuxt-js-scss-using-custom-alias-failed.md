@@ -77,4 +77,4 @@ export default {
 
 This is so because this value is then imported by the builder, which formats the main configuration object for Nuxt, which then is passed into [`postcss-import-resolver`](https://github.com/nuxt/nuxt.js/blob/e934da3c36c5fcfe1f6061fd65eefa8af9ea1db1/packages/webpack/src/utils/postcss.js#L49) which is responsible for resolving the `@import` rules, and now it has the knowledge for where to look at whenever it sees a `~swiper` import.
 
-While I do believe this could be resolved in a more generic way, I figured this was good enough. Anyway, hope this helps someone out there.
+While I do believe this could be resolved in a more generic way, I figured this was good enough. Anyway, hope this helps someone out there. Also, I added a [pull request to nuxt.org](https://github.com/nuxt/nuxtjs.org/pull/1025) to include this `alias` object in the documentation as I couldn't find it.
