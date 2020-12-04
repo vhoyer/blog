@@ -37,8 +37,8 @@ module.exports = function (eleventyConfig) {
       "./static/css/prism-tomorrow.css",
   });
 
-  // Copy Image Folder to /_site
-  eleventyConfig.addPassthroughCopy("./src/static/img");
+  // Copy Folders to /_site
+  eleventyConfig.addPassthroughCopy("./src/static");
 
   // Let Eleventy transform HTML files as nunjucks
   // So that we can use .html instead of .njk
