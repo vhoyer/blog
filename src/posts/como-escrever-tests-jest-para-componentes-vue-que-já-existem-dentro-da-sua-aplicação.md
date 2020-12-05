@@ -1,4 +1,5 @@
 ---
+lang: Portuguese
 title: Como escrever tests (jest) para componentes (vue) que já existem dentro
   da sua aplicação
 description: "Disclaimers: Além de tutorial o seguinte conteúdo é uma opnião
