@@ -1,4 +1,5 @@
 ---
+lang: Portuguese
 title: Como publicar seu projeto Xamarin.iOS na AppStore
 description: Passo a passo de como eu consegui publicar um app Xamarin.iOS na
   AppStore sendo minha primeira experiencia com um mac.
