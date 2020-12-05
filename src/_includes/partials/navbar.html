@@ -1,9 +1,11 @@
 <div class="{{ 'lg:fixed' if path == 'home' }} w-full">
     <nav class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto" x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
         <!--Logo etc-->
-        <div class="flex items-center">
-            <a href="/" class="text-indigo-500 font-bold text-lg">
-                Logo</a>
+        <div class="">
+            <a href="/" class="logo">
+                {% include "../../static/img/logo.svg" %}
+                vhoyer
+            </a>
         </div>
 
         <!--Toggle button (hidden on large screens)-->
