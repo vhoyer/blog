@@ -1,4 +1,5 @@
 ---
+lang: Portuguese
 title: Na dúvida, use um botão
 description: Um básico sobre acessibilidade
 author: Vinícius Hoyer
