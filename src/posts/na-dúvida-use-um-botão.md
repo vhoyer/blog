@@ -1,5 +1,5 @@
 ---
-lang: Portuguese
+lang: pt-BR
 title: Na dúvida, use um botão
 description: Um básico sobre acessibilidade
 author: Vinícius Hoyer

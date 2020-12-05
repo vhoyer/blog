@@ -1,5 +1,5 @@
 ---
-lang: English
+lang: en
 title: Hello Work? (wasn’t it world?)
 description: So, yesterday was my first day working! yaaaay. It’s a developer
   (maybe full stack? cuz’ asp.net + css + c# + SQL server) internship so I don’t

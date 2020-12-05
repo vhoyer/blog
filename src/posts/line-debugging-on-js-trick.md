@@ -1,5 +1,5 @@
 ---
-lang: English
+lang: en
 title: Line debugging on JS trick
 description: A trick that will help you debug code changing minimally your code
 author: Vinícius Hoyer

@@ -22,10 +22,10 @@ collections:
       - widget: select
         label: "Language"
         name: "lang"
-        default: "English"
+        default: "en"
         options:
-          - Portuguese
-          - English
+          - pt-BR
+          - en
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
