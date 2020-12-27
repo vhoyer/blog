@@ -13,7 +13,7 @@ tags:
 ---
 Repost from [dev.to](https://dev.to/vhoyer/functional-components-in-vue-js-20fl) for historical reasons.
 
-***
+- - -
 
 So, let's start from the beginning, what are functional components? Well, those are components that are more lightweight because they don't have any data, or computed, nor lifecycle events. They can be treated as just functions that are re-executed once the parameters passed down to it changes.
 
@@ -35,18 +35,18 @@ You could also try the React way and add to the project the JSX syntax of using 
 > ...the wall of learning this syntax when you are so used to the `<template>` is **not so** high **compared to the other, but still**, let alone the fact that you'll be using this render function **with JSX** when everyone else on your project is used to the template, now we have two syntax in the project and its all your fault, you should be ashamed of yourself, you smarty pants.
 > &mdash; read this very fast, for the aesthetics 😎
 
-I know because I tried doing this (_cuz_ I'm a smarty pants (is this slang still used? I learned this in the school :joy: (now I feel like I'm programming in lisp))) but my render function syntax didn't survived the code review.
+I know because I tried doing this (*cuz* I'm a smarty pants (is this slang still used? I learned this in the school :joy: (now I feel like I'm programming in lisp))) but my render function syntax didn't survived the code review.
 
 So, we all hopefully agree that Vue is nice for the simplicity and we should stick with the template syntax because it's `s i m p l e r`. Now, if you have a team of smarty pants and you all like to work with template and render functions on the same project, then go ahead and be free, don't listen to me, ~~also, send me your recuiter's email~~.
 
-***
+- - -
 
 That out of the way, I had some problems with functional components in Vue.js that I wanted to vent out here, and hopefully help anyone with the same problems:
 
-- how on earth do you call a `method` from the template? Is it even possible?
-- where are my props? And my `$listeners` and `$attrs`?
-- why vue can't find my custom component inside the functional component despite it being registered with the `components` option?
-- why the custom classes I put on the component from the outside don't get applied?
+* how on earth do you call a `method` from the template? Is it even possible?
+* where are my props? And my `$listeners` and `$attrs`?
+* why vue can't find my custom component inside the functional component despite it being registered with the `components` option?
+* why the custom classes I put on the component from the outside don't get applied?
 
 ### Executing functions from the template
 
@@ -181,8 +181,9 @@ Now if we edit the `MyTitle` component like the following, transforming it to a 
  }
  </script>
 ```
+
 <figcaption>
-No, it's not nice to have a title with an span tag, this is a mere example, just focus on the vue stuff, titles should more semantic tags like `h1`, `h2` or `strong`.
+No, it's not nice to have a title with an span tag, this is a mere example, just focus on the vue stuff, titles should more semantic tags like \`h1\`, \`h2\` or \`strong\`.
 </figcaption>
 
 And thats because... thats just because we are using functional components, and they are the way they are... :man_shrugging:. Now, serious, to make this work you will have to add a little more code, it's nothing, really:
@@ -196,6 +197,7 @@ And thats because... thats just because we are using functional components, and 
    </span>
  </template>
 ```
+
 <figcaption>
 I'd advocate this syntax is better and it should be used in non-functional components too, but thats just a comment.
 </figcaption>
@@ -269,7 +271,7 @@ The latter is not a sane option because it makes the two components &mdash; the 
   Registering components in the global scope:
 </figcaption>
 
-```js
+```javascript
 import Vue from 'vue'
 import MyCustomComponents1 from '...'
 // And so on...
@@ -283,11 +285,12 @@ new Vue({
   // ...
 });
 ```
+
 </figure>
 
 This problem leads me to think functional components weren't thought out to be used with the template syntax, because the only reasonable approach to use custom components inside functional ones is to use the render function, look at that, it's elegant:
 
-```js
+```javascript
 import MyCustomComponents1 from '...'
 //...
 render(h) {
