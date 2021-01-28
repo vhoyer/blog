@@ -19,6 +19,7 @@ Sincerely, to make your site faster:
 - HTTP 203 episode → <https://goo.gle/3pXaKR6>
 - HTML spec demo → <https://goo.gle/34QX5B1>
 - Spec → <https://goo.gle/371HLmh>
+- <https://www.terluinwebdesign.nl/en/css/calculating-contain-intrinsic-size-for-content-visibility/>
 
 ## F-mods:
 
@@ -40,5 +41,5 @@ Sincerely, to make your site faster:
 - Preloading → <https://goo.gle/2UYko7v>
 - Quicklink → <https://goo.gle/3mddrLK>
 
-## Reference
+## References
 - <https://www.youtube.com/watch?v=Z6wjUOSh9Tk>
