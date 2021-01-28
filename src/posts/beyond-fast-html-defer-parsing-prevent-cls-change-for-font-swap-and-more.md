@@ -14,30 +14,30 @@ Sincerely, to make your site faster:
 
 ## `content-visibility`
 
-- web.dev article: https://goo.gle/3digQ8y
-- HTTP 203 episode → https://goo.gle/3pXaKR6​
-- HTML spec demo → https://goo.gle/34QX5B1​
-- Spec → https://goo.gle/371HLmh​
+- web.dev article: <https://goo.gle/3digQ8y>
+- HTTP 203 episode → <https://goo.gle/3pXaKR6>
+- HTML spec demo → <https://goo.gle/34QX5B1>
+- Spec → <https://goo.gle/371HLmh>
 
 ## F-mods:
 
-- Explainer & demos → https://goo.gle/2J0xH4J​
-- Spec → https://goo.gle/370XDFP​
+- Explainer & demos → <https://goo.gle/2J0xH4J>
+- Spec → <https://goo.gle/370XDFP>
 
 ## BFCache:
 
-- Dos and don't → https://goo.gle/3mGTSfr​
+- Dos and don't → <https://goo.gle/3mGTSfr>
 
 ## Portals:
 
-- Explainer → https://goo.gle/338db9B​
-- The flags are #enable​-portals, and #enable​-portals-cross-origin
+- Explainer → <https://goo.gle/338db9B>
+- The flags are #enable-portals, and #enable-portals-cross-origin
 
 ## Misc:
 
-- Third party storage → https://goo.gle/2KxG88l​
-- Preloading → https://goo.gle/2UYko7v​
-- Quicklink → https://goo.gle/3mddrLK​
+- Third party storage → <https://goo.gle/2KxG88l>
+- Preloading → <https://goo.gle/2UYko7v>
+- Quicklink → <https://goo.gle/3mddrLK>
 
 ## Reference
-- https://www.youtube.com/watch?v=Z6wjUOSh9Tk
+- <https://www.youtube.com/watch?v=Z6wjUOSh9Tk>
