@@ -9,6 +9,7 @@ date: 2021-01-28T20:28:07.138Z
 tags:
   - English
   - Tech
+  - Performance
 ---
 Sincerely, to make your site faster:
 
