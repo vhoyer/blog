@@ -37,12 +37,13 @@ collections:
         multiple: true
         create: true
         options:
+          - Language
           - Portuguese
           - English
           - Tech
-          - Language
-          - Accessibility
           - Vue
+          - Accessibility
+          - Performance
           - Tests
   - label: "Settings"
     name: "settings"
