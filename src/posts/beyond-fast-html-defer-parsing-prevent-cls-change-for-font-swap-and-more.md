@@ -23,8 +23,13 @@ Sincerely, to make your site faster:
 
 ## F-mods:
 
+Font metrics override descriptors, f-mods for short.
+
 - Explainer & demos → <https://goo.gle/2J0xH4J>
 - Spec → <https://goo.gle/370XDFP>
+- How to get f-mods for a given font:
+  - <http://westonthayer.com/writing/intro-to-font-metrics/>
+  - <https://opentype.js.org/font-inspector.html>
 
 ## BFCache:
 
