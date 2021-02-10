@@ -30,6 +30,7 @@ Font metrics override descriptors, f-mods for short. Some new CSS properties for
 - How to get f-mods for a given font:
   - <http://westonthayer.com/writing/intro-to-font-metrics/>
   - <https://opentype.js.org/font-inspector.html>
+- browser compatibility: <https://caniuse.com/?search=FontFace%20API%20override>
 
 ## BFCache:
 
