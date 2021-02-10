@@ -1,9 +1,9 @@
 ---
 lang: en
 title: "Beyond fast: HTML defer parsing, prevent CLS change for font swap and more"
-description: HTML defer parsing, prevent CLS change for font swap, Portals,
-  caching polices, and yet more. This are more links that I don't want to loose
-  ;) check them out, they are great.
+description: HTML defer parsing, prevent CLS change for font swap with f-mods
+  font loading strategies, Portals, caching polices, and yet more. This are more
+  links that I don't want to loose ;) check them out, they are great.
 author: Vinícius Hoyer
 date: 2021-01-28T20:28:07.138Z
 tags:
@@ -23,7 +23,7 @@ Sincerely, to make your site faster:
 
 ## F-mods:
 
-Font metrics override descriptors, f-mods for short.
+Font metrics override descriptors, f-mods for short. Some new CSS properties for optimizing *font loading* and reduce CLS due to `font-display: swap`.
 
 - Explainer & demos → <https://goo.gle/2J0xH4J>
 - Spec → <https://goo.gle/370XDFP>
