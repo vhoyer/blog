@@ -50,7 +50,7 @@ so you can have something like
   --descender: -500;
   --ascender: 1900;
 
-  /* applied to the properties *
+  /* applied to the properties */
   ascent-override: calc(var(--ascender) / var(--unitsPerEm) * 100%);
   descent-override: calc(var(--descender) / var(--unitsPerEm) * 100%);
   line-gap-override: calc(var(--lineGap) / var(--unitsPerEm) * 100%);
@@ -64,6 +64,7 @@ so you can have something like
   - <http://westonthayer.com/writing/intro-to-font-metrics/>
   - <https://opentype.js.org/font-inspector.html>
 - browser compatibility: <https://caniuse.com/?search=FontFace%20API%20override>
+- Good explanation: <https://simonhearne.com/2021/layout-shifts-webfonts/#reduce-layout-shift-with-f-mods>
 
 On a side note, if you are smirking to yourself thinking "aah, cheap SEO tatics literally inserting common search queries in the article body", I'd say you are right, that was the point and I'm not ashamed of doing so :joy:. This is to help people, and if people don't find the text, there is no point in writing, is there? anyway.
 
