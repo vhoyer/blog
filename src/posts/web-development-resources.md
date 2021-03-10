@@ -9,9 +9,17 @@ tags:
   - Tech
   - English
 ---
+## Web Performance
+
+- <https://zizzamia.github.io/perfume/#/real-user-measurements/>
+
 ## Deploy ES Modules to production
 
 - <https://philipwalton.com/articles/deploying-es2015-code-in-production-today/>
+
+## PWA as Native App
+
+- <https://github.com/GoogleChromeLabs/bubblewrap>
 
 ## Misc
 
