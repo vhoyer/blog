@@ -16,6 +16,7 @@ This post will go through all the solutions I came up with while working on maki
 ## What is a whitelabel project?
 
 // TODO
+Go read the [wikipage on whitelabel](https://en.wikipedia.org/wiki/White-label_product).
 
 ## The process
 
