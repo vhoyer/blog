@@ -177,3 +177,9 @@ Taking advantage of this fact and the `nuxt.config.js` option [`css`](https://nu
 ```
 
 And yes, this file is required, and it kinda fails the Axiom#4, but you know what? I don't care, it's just one file and the systems would be identical if this file was optional.
+
+### 
+
+## After thoughts
+
+I'm not saying this is the bullet proof method of doing this, this is merely a report of how we managed to do it. Also, I'm increasingly hearing about how theming is coming to Nuxt 3, and I really don't know if some pre-made solution exists for Nuxt 2, and if it does, you probably should go for it instead of recreating this. At the time we had to implement these multi-system configuration for the project, we didn't find any tool that did the job for us, that's why we went for the in-house solution.
