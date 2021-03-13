@@ -236,6 +236,26 @@ module.exports = {
 
 Then we take this instance of the 'aliasesPlugin` and pass it down to webpack and it does it's magic.
 
+```js
+import UiModal from '~/components/ui/ui-modal';
+import UiAlert from '~/components/ui/ui-alert';
+import TheFooter from '%system/components/the-footer';
+import TheHeader from '%system/components/the-header';
+
+/* while the file structure would be something like this:
+./
+├── src/
+│   ├── components/
+│   │   └── ui/... ui stuff
+│   └── ...
+├── systems/
+│   ├── midori/components/... the-footer and the-header
+│   ├── akai/components/... the-footer and the-header
+│   └── aoi/components/... the-footer and the-header
+└── ...
+*/
+```
+
 ## After thoughts
 
 I'm not saying this is the bullet proof method of doing this, this is merely a report of how we managed to do it. Also, I'm increasingly hearing about how theming is coming to Nuxt 3, and I really don't know if some pre-made solution exists for Nuxt 2, and if it does, you probably should go for it instead of recreating this. At the time we had to implement these multi-system configuration for the project, we didn't find any tool that did the job for us, that's why we went for the in-house solution.
