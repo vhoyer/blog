@@ -102,6 +102,27 @@ The thing is that in this project we already had all the routes being configured
 
 While executing the `extendRoutes` function, we would filter out the routes that weren't allowed for the current executing system and that one problem out.
 
-To vary `meta` and `path` and other route object values, we added a custom 
+To vary `meta` and `path` and other route object values, we added a custom API, where if there was a file named `router.js` inside a system folder, the `nuxt.config.js` file was configured to load this file and override the default values for the router -- this behavior is replicated with all kinds of files. For the route list we have defined a function which is also called `extendRoutes` but it receives a different signature with a util function called `editIfFound` to perform pin point editions on the routes.
+
+```js
+export default {
+  extendRoutes({ editIfFound }) {
+    editIfFound('product-page', (route) => {
+      route.meta.breadcrumb.parent = 'another-route-name';
+    });
+
+    editIfFound([
+      'plp-type-1',
+      'plp-type-2',
+      'plp-type-3',
+      'plp-type-4',
+    ], (route) => {
+      route.path = route.path.replace(/^\//, '/custom-prefix/');
+    });
+  },
+};
+```
+
+> The name `editIfFound` was originally `edit`, but we had some problems with tests where the function would just break because we had the route list mocked so some stuff would not be there.
 
 ### 
