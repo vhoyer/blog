@@ -178,7 +178,63 @@ Taking advantage of this fact and the `nuxt.config.js` option [`css`](https://nu
 
 And yes, this file is required, and it kinda fails the Axiom#4, but you know what? I don't care, it's just one file and the systems would be identical if this file was optional.
 
-### 
+### Customizing each system
+
+So, as far as customization between systems go, we wanted to be able to:
+
+- Show and hide different components in different systems;
+- Changing images between systems (mainly like, logos and some svgs);
+- Change the hole design/business logic of specific components between systems; and
+- Changing the [copy](https://en.wikipedia.org/wiki/Copywriting) for each system (and this, we've already covered with the i18n section);
+
+And to achieve those we adopted some of the following techniques, while those following practices cover a lot of the cases we need, there are some edge cases that are kinda more challenging to explain here without context, so I'm just gonna skip it, which is unfortunate, but if you wanna here my words out of those, hit me up on... email? Wherever you feel most comfortable using.
+
+#### Show and hide different components in different systems
+
+So, we decided on using this... feature flags system that, instead of using a server to provide the flags, as we didn't necessarily need the changes on the fly, only differences between systems, we could get away with having a JSON file on each system folder with a bunch of flags.
+
+We add it as a [Vue plugins](https://vuejs.org/v2/guide/plugins.html) (those accessed by `this.$featureFlag`), as an util function, and as a "Higher Order Component" function (`withFeatureFlagEnabled`) function where we block a hole component with a feature flag.
+
+#### Changing images between systems
+
+To achieve this we added another Vue Plugin called `$asset`, which takes a `key` and returns an URL from another JSON file (we have a bunch of those) with the correct URL. Really, not much to say.
+
+#### Change the hole design/business logic of specific components between systems
+
+Now this, is where we added the the biggest game changer which mostly enables all of the above solutions to work properly. To override all the design/business logic of some component, the only thing you need to do, is to override the file which a given path returns. So if you have a `import something from 'path/to/something'`, we return actually `systems/aoi/path/to/something`.
+
+To achieve this, we add a custom alias with fallback, which firstly tries to search the file at the system folder and then at the `src` default folder, and it makes all that at build time.
+
+```js
+const { systemName } = require('../system-current');
+
+const AliasPlugin = require('enhanced-resolve/lib/AliasPlugin');
+const path = require('path');
+
+const rootDir = request => path.join(path.resolve(__dirname, '../../'), request || '');
+
+const aliases = [{
+  name: '%system',
+  alias: [
+    rootDir(`/systems/${systemName}/`),
+    rootDir('/src/'),
+  ],
+}];
+
+const aliasesPlugin = new AliasPlugin('described-resolve', aliases, 'resolve');
+
+module.exports = {
+  aliases,
+  aliasesPlugin,
+  rootDir,
+};
+```
+
+> To make the alias work we had to choose a prefix to use in the paths, as we didn't want to enable this fallback import work by default for all imports to better describe when you read a file, which files are probably being overridden by the system.
+>
+> So we went with `%system` as we also did't want to use `@` as a prefix since it was too similar to the `@scope/package` syntax npm has gone for, and we didn't want people to thing that `@system/components/bla.vue` was a different package.
+
+Then we take this instance of the 'aliasesPlugin` and pass it down to webpack and it does it's magic.
 
 ## After thoughts
 
