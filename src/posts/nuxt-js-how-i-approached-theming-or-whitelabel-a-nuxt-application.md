@@ -59,7 +59,22 @@ We had the development command be like `npm run dev` now the new command would b
 
 ### How to structure the folders
 
-Nuxt has a [default/recommended folder structure](https://nuxtjs.org/docs/2.x/get-started/directory-structure), which has like `pages`, `components`, `middleware` and so on, which are, by default, all placed on the root folder of the project. As we wanted to be able to customize every file in the project, we decided the best decision was to move all the current application files to a sub-folder called `src`, this allowed us to create another folder called `systems` which we added sub-folders for each system to hold system specific files.
+Nuxt has a [default/recommended folder structure](https://nuxtjs.org/docs/2.x/get-started/directory-structure), which has like `pages`, `components`, `middleware` and so on, which are, by default, all placed on the root folder of the project. As we wanted to be able to customize every file in the project, we decided the best decision was to move all the current application files to a sub-folder called `src`, this allowed us to create another folder called `systems` which we added sub-folders for each system to hold system specific files. This is the system folder.
+
+```
+./
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── ... application files
+│   ├── store/
+│   └── utils/
+├── systems/
+│   ├── midori/... application files
+│   ├── akai/... application files
+│   └── aoi/... application files
+└── ...
+```
 
 ### The routes
 
