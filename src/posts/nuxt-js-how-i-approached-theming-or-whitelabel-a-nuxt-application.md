@@ -232,7 +232,7 @@ module.exports = {
 
 > To make the alias work we had to choose a prefix to use in the paths, as we didn't want to enable this fallback import work by default for all imports to better describe when you read a file, which files are probably being overridden by the system.
 >
-> So we went with `%system` as we also did't want to use `@` as a prefix since it was too similar to the `@scope/package` syntax npm has gone for, and we didn't want people to thing that `@system/components/bla.vue` was a different package.
+> So we went with `%system` as we also did't want to use `@` as a prefix since it was too similar to the `@scope/package` syntax npm has gone for, and we didn't want people to thing that `@system/components/bla.vue` was a different package. We just really wanted to make it very obvious that something out of the ordinary was happening in that import.
 
 Then we take this instance of the 'aliasesPlugin` and pass it down to webpack and it does it's magic.
 
