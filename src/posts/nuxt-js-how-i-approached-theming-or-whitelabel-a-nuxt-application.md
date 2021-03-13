@@ -31,9 +31,9 @@ Secondly, when I say "project" I'm referring to the git managed files, basically
 
 ### The past
 
-So, in this company. We already had one attempt at having a whitelabel project in this same website. But the approach was totally different. We had one server which, at request, determined which system was being requested and a bunch of ifs in every file determined  which system to render.
+So, in this company, we already had one attempt at having a whitelabel project in this same website (which didn't go so well, it had a bunch of problems). But the approach was totally different. Previously we had one server which, at request, determined which system was being requested and a bunch of ifs in every file determined  which system to render. We, the team working on this new version, deemed that the previous approach was bad, and we wanted to do it differently, better (in our vision).
 
-With that in mind we began this second whitelabel attempt with some rules to help us find the paths we wanted to go with. Those were the following (they are actually kinda obvious if you think about it, but you really have to keep it in mind):
+With that in mind we began this second whitelabel attempt with some rules to help us find the paths we wanted to go with (the better ones). Those were the following (they are actually kinda obvious if you think about it, but you really have to keep it in mind):
 
 - **#1**. We don't want to force one system to download other systems data/components/logic/nothing. In production, one system have to be fully isolated from the others;
 - **#2**. We don't want to treat the starting system (the original `midori` one) as a special case. If we are gonna do this, the original site has to fit in the new API, doing so, actually resulted in having from the get go all the flexibility we would ever need while developing other systems;
