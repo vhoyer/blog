@@ -35,10 +35,12 @@ So, in this company. We already had one attempt at having a whitelabel project i
 
 With that in mind we began this second whitelabel attempt with some rules to help us find the paths we wanted to go with. Those were the following (they are actually kinda obvious if you think about it, but you really have to keep it in mind):
 
-- We don't want to force one system to download other systems data/components/logic/nothing. In production, one system have to be fully isolated from the others;
-- We don't want to treat the starting system (the original `midori` one) as a special case. If we are gonna do this, the original site has to fit in the new API, doing so, actually resulted in having from the get go all the flexibility we would ever need while developing other systems;
-- We have to code this solution imagining we can have N systems in the project, so if we had to make 50 systems, the work required to implement each would be the same as if we only had to build two systems; and
-- We want to, in each design decision, choose a sensible default, so that if anyone wants to create a new system in this same architecture, we don't want to force this person to write 500 configuration files just to start the new system, we want to provide a progressive experience to including new systems to the project.
+- **#1**. We don't want to force one system to download other systems data/components/logic/nothing. In production, one system have to be fully isolated from the others;
+- **#2**. We don't want to treat the starting system (the original `midori` one) as a special case. If we are gonna do this, the original site has to fit in the new API, doing so, actually resulted in having from the get go all the flexibility we would ever need while developing other systems;
+- **#3**. We have to code this solution imagining we can have N systems in the project, so if we had to make 50 systems, the work required to implement each would be the same as if we only had to build two systems; and
+- **#4**. We want to, in each design decision, choose a sensible default, so that if anyone wants to create a new system in this same architecture, we don't want to force this person to write 500 configuration files just to start the new system, we want to provide a progressive experience to including new systems to the project.
+
+Let's treat those as Axioms, because, why not? Also, I will be referring to those as numbers like "oh on the axiom#3 ..." just because I think it's funny. Deal with it.
 
 ### How to choose which system to build
 
@@ -125,4 +127,53 @@ export default {
 
 > The name `editIfFound` was originally `edit`, but we had some problems with tests where the function would just break because we had the route list mocked so some stuff would not be there.
 
-### 
+### Text literals changes between systems
+
+This was one of the easier changes to do, we didn't use any `i18n` library on this project, so we just... adopted it, and loaded a different source of text based on the current executing system.
+
+```js
+export const injectSystem = (systemName) => {
+  const messages = lodash.merge(
+    sharedI18n, // the default file
+    requireIfExists(rootDir(`systems/${systemName}/i18n.json`)) || {}
+  );
+
+  // https://i18n.nuxtjs.org/options-reference.html
+  return {
+    // ...
+    vueI18n: {
+      // ...
+      messages: {
+        'pt-BR': messages,
+      },
+    },
+  };
+};
+
+export default injectSystem(process.env.SYSTEM_NAME);
+```
+
+> `rootDir` and `requireIfExists` are both util functions written in-house which are "path transformations that points to the root of the project" and "try requiring a file, and if it doesn't exist return undefined" respectively. Those two only work properly on node environment, so be aware if you want to do it similarly.
+
+Because of the Axiom#4, we have this `sharedI18n` which is a file that is sitting on the `src` directory that sets the baseline so that a new system doesn't necessarily need to add a custom messages file. And we are merging it with the default to be able to just override the stuff we need, not the stuff that is common between systems.
+
+Also, we don't break the Axiom#1, because this file is ran only on build time, so the browser don't download useless `messages` on production.
+
+### Actually changing themes for components
+
+In our case, we already had a design system which were prepared to receive a `variables.scss` file with CSS custom properties that changes things like, `border-radius`, `color`s and... CSS properties 🤷.
+
+Taking advantage of this fact and the `nuxt.config.js` option [`css`](https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-css/) to add a extra file that points to a `theme.scss` file in the system folder.
+
+```diff
+ const { SYSTEM_NAME } = process.env;
+ const globalCss = [
+   // ...
++  `~~/systems/${SYSTEM_NAME}/assets/theme.scss`,
+   // ...
+ ];
+ 
+ export default globalCss;
+```
+
+And yes, this file is required, and it kinda fails the Axiom#4, but you know what? I don't care, it's just one file and the systems would be identical if this file was optional.
