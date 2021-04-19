@@ -26,4 +26,4 @@ That being the case, it doesn't mean, only because it's scope is small, a util s
 
 # Conclusion / TL;DR
 
-Basically, the difference comes down solely to scope, be it a class or a function, if it has a clear scope it's a service, if it's for general use it's a utils.
+Basically, the difference comes down solely to scope, be it a class or a function, if it has a clear scope it's a service, if it's for general use it's a util.
