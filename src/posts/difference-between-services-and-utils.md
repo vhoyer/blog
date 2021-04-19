@@ -14,7 +14,7 @@ If you are going to use this post to win a discussion, think again, this is just
 
 ---
 
-Being mostly from a front-end written in JavaScript background, I used to think that services were classes and utils were functions, and while this can serve as a not-terrible rule of thumb, it can lead to some "weird" unnatural interfaces.
+Being mostly from a front-end written in JavaScript background, I used to think that services were classes and utils were functions (in the es6 sense of those words), and while this can serve as a not-terrible rule of thumb, it can lead to some "weird" unnatural interfaces.
 
 // to do: maybe talk a bit about the weird interfaces? Maybe some other time.
 
