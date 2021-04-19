@@ -24,4 +24,6 @@ On the other hand, utils are generally: URL utils, Number utils, formatter utils
 
 That being the case, it doesn't mean, only because it's scope is small, a util should be a function. Sometimes the feature do ask for a more complex implementation and a class might be one of the tools used to realize this solution. Same thing goes for a service sometimes one might need state, and inheritance, but sometimes not, and one should not feel forced into a pattern that does not exist like I was for some time.
 
+# Conclusion / TL;DR
+
 Basically, the difference comes down solely to scope, be it a class or a function, if it has a clear scope it's a service, if it's for general use it's a utils.
