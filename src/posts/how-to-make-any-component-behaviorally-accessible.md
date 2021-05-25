@@ -4,8 +4,8 @@ title: How to make any component behaviorally accessible
 description: Basically any component creates some expectation on the user. If
   you open a modal, you, as an user expect to be able to close it by clicking on
   the backdrop of that said modal. If you have a video focused and you press
-  <kbd>Space</kbd>, you expect it to pause. If you tab into a button, you expect
-  it to activate by either pressing Enter or Space.
+  Space, you expect it to pause. If you tab into a button, you expect it to
+  activate by either pressing Enter or Space.
 author: Vinícius Hoyer
 date: 2021-05-25T20:43:49.601Z
 tags:
