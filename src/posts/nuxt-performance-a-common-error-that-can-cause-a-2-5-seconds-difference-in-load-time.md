@@ -19,7 +19,7 @@ Quick post just to share my findings. So I've been working for a while now in im
 
 If you know what I'm talking about, you should really skip this section. Anyway, this is the way I generally refer to the following error.
 
-![The client-side rendered virtual DOM tree is not matching server-rendered content.](/static/img/screenshot-from-2021-02-23-17-52-26.png)
+![The client-side rendered virtual DOM tree is not matching server-rendered content.](/static/img/uploads/screenshot-from-2021-02-23-17-52-26.png)
 
 This error happens when the HTML that the server has generated, differs from the HTML that the client Vue.js library wants to generate. Sometimes it's due to invalid HTML like the error message suggests, but sometimes it happens because we are stupid and we make mistakes. Most of the time I encountered this error, the reason was the latter.
 
@@ -58,7 +58,7 @@ So, when this error happens (as far as I am aware), what the Vue.js in the clien
 
 Ok, so I always knew that this happened and always said "hey, don't ignore this error as it's bad for performance", but I had never measured the actual difference it makes... until today, and here are the summary:
 
-![#10 11.40s; #9 11.03s; #8 14.29s; #7 14.26s; #5 14.24s](/static/img/performance.png)
+![#10 11.40s; #9 11.03s; #8 14.29s; #7 14.26s; #5 14.24s](/static/img/uploads/performance.png)
 
 In the results number #10 and #9 there was no CSR/SSR error, but in results number #8, #7, and #5 the error was present. This is a difference of roughly 2.5 seconds in load time.
 

@@ -5,8 +5,8 @@ backend:
   ### enable below lines for github integration ###
   # name: github
   # repo: vhoyer/blog
-media_folder: "src/static/img"
-public_folder: "/static/img"
+media_folder: "src/static/img/uploads"
+public_folder: "/static/img/uploads"
 
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
