@@ -1,3 +1,7 @@
 items:
-  - text: Blog
+  - text: All posts
     url: /blog
+    tag: posts
+  - text: Tech posts
+    url: /tags/tech/
+    tag: Tech
