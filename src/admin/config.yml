@@ -30,26 +30,29 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Author", name: "author", widget: "string", default: "Vinícius Hoyer" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - widget: select
-        label: "tags"
-        name: "tags"
+      - label: "tags"
+        name: tags
+        widget: relation
         multiple: true
-        create: true
-        options:
-          - Language
-          - Portuguese
-          - English
-          - Tech
-          - Vue
-          - Accessibility
-          - Performance
-          - Tests
+        collection: settings
+        file: postConfig
+        search_fields: ["tags.*.name"]
+        value_field: "tags.*.name"
+      - { label: "Body", name: "body", widget: "markdown" }
   - label: "Settings"
-    name: "settings"
+    name: settings
     editor:
       preview: false
     files:
+      - label: "Post Configurations"
+        name: postConfig
+        file: "src/_data/postConfig.yaml"
+        fields:
+          - label: Tags
+            name: tags
+            widget: list
+            fields:
+              - { label: Tag Name, name: name, widget: string }
       - label: "Navigation"
         name: "items"
         file: "src/_data/navigation.yaml"
