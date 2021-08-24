@@ -6,7 +6,6 @@ author: Vinícius Hoyer
 date: 2020-11-18T14:41:42.525Z
 tags:
   - Tech
-  - English
 ---
 So, supposing you have the following code:
 

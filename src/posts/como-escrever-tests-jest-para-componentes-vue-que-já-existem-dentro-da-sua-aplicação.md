@@ -11,7 +11,6 @@ description: "Disclaimers: Além de tutorial o seguinte conteúdo é uma opnião
 author: Vinícius Hoyer
 date: 2019-07-24T22:42:07.666Z
 tags:
-  - Portuguese
   - Tech
   - Vue
   - Tests

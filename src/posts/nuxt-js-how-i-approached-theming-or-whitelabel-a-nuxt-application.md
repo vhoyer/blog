@@ -7,7 +7,6 @@ description: All the solutions for the problems I encountered while working on
 author: Vinícius Hoyer
 date: 2021-03-13T17:22:01.783Z
 tags:
-  - English
   - Tech
   - Vue
 ---
@@ -173,7 +172,7 @@ Taking advantage of this fact and the `nuxt.config.js` option [`css`](https://nu
 +  `~~/systems/${SYSTEM_NAME}/assets/theme.scss`,
    // ...
  ];
- 
+
  export default globalCss;
 ```
 

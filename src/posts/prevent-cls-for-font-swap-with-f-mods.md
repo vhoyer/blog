@@ -7,7 +7,6 @@ author: Vinícius Hoyer
 date: 2021-02-16T02:05:46.056Z
 tags:
   - Performance
-  - English
   - Tech
 ---
 Font metrics override descriptors, f-mods for short. Some new CSS properties for optimizing *font loading* and reduce CLS due to `font-display: swap`. So, the properties added in this draft are: `ascent-override`, `descent-override`, and `line-gap-override`, which are all percentage values.

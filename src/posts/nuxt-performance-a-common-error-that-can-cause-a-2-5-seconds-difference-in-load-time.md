@@ -10,7 +10,6 @@ date: 2021-02-23T20:40:39.978Z
 tags:
   - Vue
   - Performance
-  - English
   - Tech
 ---
 Quick post just to share my findings. So I've been working for a while now in improving the company's website performance. And I always knew that the <abbr title="server-side render">SSR</abbr> vs. <abbr title="client-side render">CSR</abbr> difference error caused a performance issue, but the I thought that the difference I found was impressive nonetheless.

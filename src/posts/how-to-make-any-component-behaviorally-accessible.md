@@ -9,7 +9,6 @@ description: Basically any component creates some expectation on the user. If
 author: Vinícius Hoyer
 date: 2021-05-25T20:43:49.601Z
 tags:
-  - English
   - Tech
   - Accessibility
 ---

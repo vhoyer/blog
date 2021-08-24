@@ -7,7 +7,6 @@ description: HTML defer parsing, prevent CLS change for font swap with f-mods
 author: Vinícius Hoyer
 date: 2021-01-28T20:28:07.138Z
 tags:
-  - English
   - Tech
   - Performance
 ---

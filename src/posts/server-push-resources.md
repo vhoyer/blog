@@ -8,7 +8,6 @@ date: 2021-01-29T13:33:54.940Z
 tags:
   - Tech
   - Performance
-  - English
 ---
 Original article contained only this link:
 - <https://www.smashingmagazine.com/2017/04/guide-http2-server-push/>

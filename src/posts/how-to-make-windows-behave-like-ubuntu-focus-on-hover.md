@@ -7,7 +7,6 @@ author: Vinícius Hoyer
 date: 2021-06-19T15:14:14.502Z
 tags:
   - Tech
-  - English
 ---
 Well apperently there is this option:
 

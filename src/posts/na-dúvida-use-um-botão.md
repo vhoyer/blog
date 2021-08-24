@@ -5,7 +5,6 @@ description: Um básico sobre acessibilidade
 author: Vinícius Hoyer
 date: 2019-07-18T22:28:39.476Z
 tags:
-  - Portuguese
   - Tech
   - Accessibility
 ---

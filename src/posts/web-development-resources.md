@@ -7,7 +7,6 @@ author: Vinícius Hoyer
 date: 2021-03-10T17:55:03.503Z
 tags:
   - Tech
-  - English
 ---
 ## Web Performance
 
