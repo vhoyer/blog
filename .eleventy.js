@@ -16,6 +16,11 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  // draft filter
+  eleventyConfig.addFilter("filterOutDrafts", (collection) => {
+    return collection.filter(item => !item.data.isDraft);
+  });
+
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
 

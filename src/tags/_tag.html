@@ -8,39 +8,7 @@ permalink: "tags/{{ tag.name | slug }}/"
 ---
 
 <section class="mt-15">
-    {% set postslist = collections[tag.name] %}
+    {% set postList = collections[tag.name] %}
 
-    {% for post in postslist | reverse %}
-        <article class="my-8">
-            <h2 class="mb-2 text-3xl font-bold text-gray-900">
-                <a href="{{ post.url | url }}">
-                    {% if post.data.title %}
-                        {{ post.data.title }}
-                    {% else %}
-                        Untitled
-                    {% endif %}
-                </a>
-            </h2>
-            <p class="mb-3 text-base text-gray-500 leading-6">
-                <time>
-                    {{ post.date | readableDate }}
-                    by
-                    <a>{{ post.data.author }}</a>
-
-                </time>
-            </p>
-            {% if post.data.description %}
-                <p class="mb-3 text-lg text-gray-500">
-                    {{ post.data.description }}
-                </p>
-            {% endif %}
-
-            <p>
-                <a href="{{ post.url | url }}" class="text-lg font-bold text-indigo-500">
-                    Read more →
-                </a>
-            </p>
-
-        </article>
-    {% endfor %}
+    {% include "./_includes/partials/postList.html" %}
 </section>

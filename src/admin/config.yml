@@ -19,6 +19,7 @@ collections:
     editor:
       preview: false
     fields:
+      - { label: "Draft", name: "isDraft", widget: boolean, default: true }
       - widget: select
         label: "Language"
         name: "lang"
