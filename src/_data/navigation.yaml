@@ -5,3 +5,5 @@ items:
   - text: Tech posts
     url: /tags/tech/
     tag: Tech
+  - text: Language Learning posts
+    url: /tags/language-learning/
