@@ -2,13 +2,13 @@
 isDraft: false
 lang: pt-BR
 title: Treinamento para ouvir japonês corretamente
-description: Então eu sigo os ensinamentos daquele site [Refold](refold.la), e o
-  Matt, um dos fundadores do Refold, se não me engano já comentou uma vez que
-  conseguir identificar o pitch accent durante a imersão em japonês é algo que
-  pode ajudar muito sua vida mais pra frente, expecialmente se sua linguagem
-  nativa não tem o conceito de pitch accent, então você tem que aprender do zero
-  a diferenciar quando essa diferença de pitch acontece pra poder internalizar
-  as palavras corretamente.
+description: Então eu sigo os ensinamentos daquele site Refold, e o Matt, um dos
+  fundadores do Refold, se não me engano já comentou uma vez que conseguir
+  identificar o pitch accent durante a imersão em japonês é algo que pode ajudar
+  muito sua vida mais pra frente, expecialmente se sua linguagem nativa não tem
+  o conceito de pitch accent, então você tem que aprender do zero a diferenciar
+  quando essa diferença de pitch acontece pra poder internalizar as palavras
+  corretamente.
 author: Vinícius Hoyer
 date: 2021-09-13T01:27:34.413Z
 tags:
