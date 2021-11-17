@@ -1,5 +1,5 @@
 ---
-isDraft: true
+isDraft: false
 lang: en
 title: "Code Review: Why do we call it `TheHeader` instead of `Header`?"
 description: "TL;DR: To comply with Vue.js default style guide"
@@ -23,8 +23,9 @@ Comment on `.../components/the-header/the-header.vue`
 
 ---
 
+This is to signal to other people that this component is a single instance component. That means that we shouldn't use more than one instance of this component. Think about it, does a site needs more than one main header? It does not.
 
+This convention of using the `The` as a prefix to signal this comes from [Vue's style guide][1]. The name `TheHeaderHelp` follows the `The` prefix, not because of the "single instance" rule, but from the ["tightly coupled component" rule][2] again from Vue's style guide. It has the `The` prefix because it is tightly coupled to the `TheHeader`.
 
-Reference:
-- [Single instance component names](https://vuejs.org/v2/style-guide/#Single-instance-component-names-strongly-recommended)
-- [Tightly coupled component names](https://vuejs.org/v2/style-guide/#Tightly-coupled-component-names-strongly-recommended)
+[1]: <https://vuejs.org/v2/style-guide/#Single-instance-component-names-strongly-recommended> "Single instance component names"
+[2]: <https://vuejs.org/v2/style-guide/#Tightly-coupled-component-names-strongly-recommended> "Tightly coupled component names"
