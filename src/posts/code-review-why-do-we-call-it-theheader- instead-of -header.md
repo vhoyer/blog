@@ -7,6 +7,8 @@ author: Vinícius Hoyer
 date: 2021-11-17T15:21:29.692Z
 tags:
   - Code Review
+  - Tech
+  - Vue
 ---
 Comment on `.../components/the-header/the-header.vue`
 
