@@ -26,5 +26,5 @@ Comment on `.../components/the-header/the-header.vue`
 
 
 Reference:
-- <https://vuejs.org/v2/style-guide/#Single-instance-component-names-strongly-recommended>
-- <https://vuejs.org/v2/style-guide/#Tightly-coupled-component-names-strongly-recommended>
+- [Single instance component names](https://vuejs.org/v2/style-guide/#Single-instance-component-names-strongly-recommended)
+- [Tightly coupled component names](https://vuejs.org/v2/style-guide/#Tightly-coupled-component-names-strongly-recommended)
