@@ -7,5 +7,7 @@ author: Vinícius Hoyer
 date: 2021-12-21T14:16:37.887Z
 tags:
   - Tech
+  - PC Configuration
+  - Linux
 ---
 https://www.linuxbabe.com/desktop-linux/how-to-automount-file-systems-on-linux read this
