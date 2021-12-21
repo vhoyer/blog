@@ -9,5 +9,6 @@ tags:
   - Tech
   - PC Configuration
   - Linux
+  - Links List
 ---
 https://www.linuxbabe.com/desktop-linux/how-to-automount-file-systems-on-linux read this
