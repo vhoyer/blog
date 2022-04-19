@@ -7,3 +7,5 @@ items:
     tag: Tech
   - text: The way of the polyglot
     url: /tags/language-learning/
+  - text: Code Review Series
+    url: /tags/code-review
