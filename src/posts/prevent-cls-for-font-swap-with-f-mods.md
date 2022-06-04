@@ -54,5 +54,6 @@ so you can have something like
 
 * browser compatibility: <https://caniuse.com/?search=FontFace%20API%20override>
 * Good explanation: <https://simonhearne.com/2021/layout-shifts-webfonts/#reduce-layout-shift-with-f-mods>
+  * <https://www.zachleat.com/web/comprehensive-webfonts/>
 
 On a side note, if you are smirking to yourself thinking "aah, cheap SEO tatics literally inserting common search queries in the article body", I'd say you are right, that was the point and I'm not ashamed of doing so :joy:. This is to help people, and if people don't find the text, there is no point in writing, is there? anyway.
