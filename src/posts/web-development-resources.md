@@ -15,6 +15,8 @@ tags:
 - <https://pagespeed.web.dev/>
 - <https://www.webpagetest.org/>
 - <https://gtmetrix.com/>
+- Improving LCP
+  - <https://www.youtube.com/watch?v=fWoI9DXmpdk>
 - image optimization
   - <https://jakearchibald.github.io/svgomg/>
   - <https://imageoptim.com/online>
