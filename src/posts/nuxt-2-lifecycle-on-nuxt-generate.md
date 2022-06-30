@@ -1,5 +1,5 @@
 ---
-isDraft: true
+isDraft: false
 lang: en
 title: Nuxt 2 Lifecycle on `nuxt generate`
 description: A quick study on which events in nuxt's lifecycle events run at
