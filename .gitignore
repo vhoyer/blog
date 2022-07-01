@@ -6,4 +6,3 @@ node_modules/
 _site/
 *git/
 package-lock.json
-.env

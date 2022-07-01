@@ -1,0 +1,21 @@
+version: "3.5"
+
+services:
+  app:
+    tty: true
+    stdin_open: true
+    network_mode: host
+    image: node:$NODE_VERSION
+    working_dir: /app
+    command: make startup
+    ports:
+      - 3001:3001 # browsersync
+      - 8080:8080 # eleventy
+      - 8081:8081 # netlify
+    volumes:
+      - user-home:/root
+      - ./:/app:cached
+      - ./node_modules:/app/node_modules:delegated
+
+volumes:
+  user-home:
