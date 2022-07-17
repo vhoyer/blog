@@ -3,10 +3,10 @@ layout: default
 prism: true
 ---
 
-<div class="container max-w-4xl mt-6  px-6" lang="{{lang}}">
+<div class="container max-w-4xl px-6 mt-6" lang="{{lang}}">
     <div class="pb-5 mb-5 border-b border-gray-100">
-        <h1 class="font-bold text-3xl md:text-5xl">{{title}}</h1>
-        <p class="text-center text-base leading-6 font-medium text-gray-500">
+        <h1 class="text-3xl font-bold md:text-5xl">{{title}}</h1>
+        <p class="text-base font-medium text-center text-gray-500 leading-6">
             <time> {{ date | readableDate }}
                 by
                 <a>{{ author }}</a>
@@ -14,8 +14,12 @@ prism: true
             </time>
         </p>
 
+        <p class="mx-auto mt-4 italic text-center text-gray-500 prose lg:prose-xl">
+            {{ description }}
+        </p>
     </div>
-    <article class="prose lg:prose-xl my-4 mx-auto">
+
+    <article class="mx-auto my-4 prose lg:prose-xl">
         {{ content | safe }}</article>
 
 </div>
