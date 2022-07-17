@@ -8,7 +8,7 @@ down:
 	docker-compose down
 
 bash:
-	docker-compose run app "bash"
+	docker ps | grep -q "blog-app-1$$" && docker-compose exec app "bash" || docker-compose rum --rm app "bash";
 
 startup:
 	npm install
