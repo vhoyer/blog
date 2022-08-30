@@ -19,6 +19,21 @@ collections:
     create: true
     editor:
       preview: false
+    view_groups:
+      - label: "Year"
+        field: date
+        pattern: \d{4}
+      - label: "Language"
+        field: lang
+      - label: "Draft"
+        field: isDraft
+    view_filters:
+      - label: "Published"
+        field: "isDraft"
+        pattern: false
+      - label: "Drafts"
+        field: "isDraft"
+        pattern: true
     fields:
       - { label: "Draft", name: "isDraft", widget: boolean, default: true }
       - widget: select
