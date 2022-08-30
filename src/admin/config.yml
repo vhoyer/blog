@@ -12,7 +12,8 @@ public_folder: "/static/img/uploads"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "Blog"
+  - label: "blog post"
+    description: "Collection for controlling blog posts."
     name: "blog"
     folder: "src/posts"
     create: true
@@ -40,7 +41,7 @@ collections:
         search_fields: ["tags.*.name"]
         value_field: "tags.*.name"
       - { label: "Body", name: "body", widget: "markdown" }
-  - label: "Settings"
+  - label: "settings"
     name: settings
     editor:
       preview: false
