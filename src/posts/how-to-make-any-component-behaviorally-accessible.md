@@ -1,4 +1,5 @@
 ---
+isDraft: false
 lang: en
 title: How to make any component behaviorally accessible
 description: Basically any component creates some expectation on the user. If
