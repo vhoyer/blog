@@ -1,4 +1,5 @@
 ---
+isDraft: false
 lang: en
 title: "[nuxt.js] How I approached Theming or Whitelabel a nuxt application"
 description: All the solutions for the problems I encountered while working on
