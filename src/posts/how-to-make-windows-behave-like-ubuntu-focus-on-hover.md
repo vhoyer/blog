@@ -1,4 +1,5 @@
 ---
+isDraft: false
 lang: en
 title: "How to make windows behave like ubuntu focus on hover "
 description: Make windows on windows10 have instant focus on mouse hover, but
