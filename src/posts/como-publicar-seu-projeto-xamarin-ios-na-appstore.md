@@ -1,4 +1,5 @@
 ---
+isDraft: false
 lang: pt-BR
 title: Como publicar seu projeto Xamarin.iOS na AppStore
 description: Passo a passo de como eu consegui publicar um app Xamarin.iOS na

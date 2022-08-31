@@ -1,4 +1,5 @@
 ---
+isDraft: false
 lang: en
 title: About HTTP/2's server push
 description: I do not advise use of ServerPush, here are some other articles

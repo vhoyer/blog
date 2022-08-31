@@ -1,4 +1,5 @@
 ---
+isDraft: false
 lang: en
 title: "[nuxt.js] Scss using custom alias failed"
 description: How I debugged my way through the custom alias error, and how to

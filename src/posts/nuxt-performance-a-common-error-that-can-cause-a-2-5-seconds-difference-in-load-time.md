@@ -1,4 +1,5 @@
 ---
+isDraft: false
 lang: en
 title: "Nuxt Performance: A common error that can cause a 2.5 seconds difference
   in load time"

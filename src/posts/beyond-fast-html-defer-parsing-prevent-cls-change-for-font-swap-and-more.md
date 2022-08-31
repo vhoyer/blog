@@ -1,4 +1,5 @@
 ---
+isDraft: false
 lang: en
 title: "Beyond fast: HTML defer parsing, prevent CLS change for font swap and more"
 description: HTML defer parsing, prevent CLS change for font swap with f-mods

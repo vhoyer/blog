@@ -1,4 +1,5 @@
 ---
+isDraft: false
 lang: en
 title: Functional components in Vue.js (2.x)
 description: A little help for making basic stuff with functional components in

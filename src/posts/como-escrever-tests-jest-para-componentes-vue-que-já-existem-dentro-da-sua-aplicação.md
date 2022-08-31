@@ -1,4 +1,5 @@
 ---
+isDraft: false
 lang: pt-BR
 title: Como escrever tests (jest) para componentes (vue) que já existem dentro
   da sua aplicação

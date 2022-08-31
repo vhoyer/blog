@@ -1,4 +1,5 @@
 ---
+isDraft: false
 lang: pt-BR
 title: Logic Gates
 description: Esse é um projeto que eu fiz para a faculdade, porque não compartilhar, né?
