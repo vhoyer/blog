@@ -10,20 +10,20 @@ tags:
 ---
 ## Ingredientes
 
-* carne de boi (acém*, músculo, colchão mole, o que tiver em casa);
+* carne de boi ([acém](https://pt.wikipedia.org/wiki/Ac%C3%A9m)*, [músculo](https://pt.wikipedia.org/wiki/M%C3%BAsculo_dianteiro), [coxão mole](https://pt.wikipedia.org/wiki/Cox%C3%A3o_mole), o que tiver em casa);
 * cenoura;
 * batata;
 * macarrão tubinho/ave maria/bucatini bem curtinho;
-* coloral;
+* [coloral](https://pt.wikipedia.org/wiki/Anato);
 * sal a gosto;
 * outros temperos a gosto (ou o que tiver em casa também).
 
-\* da preferencia da vó é acém.
+\* da preferência da vó é acém.
 
 ## Preparando
 
-1. Cozinha a carne picadinha na agua até ficar molinha, reserva;
-2. Descasca cenoura e pica em cubo de ums 2cm³;
+1. Cozinha a carne picadinha na água até ficar molinha, reserva;
+2. Descasca cenoura e pica em cubo de uns 2cm³;
 3. Coloca a cenoura pra cozinhar;
 4. Descasca a batata e pique-a em cubos, também de 2cm³;
 5. Adiciona a batata na panela da cenoura;
