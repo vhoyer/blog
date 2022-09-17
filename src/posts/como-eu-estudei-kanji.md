@@ -1,5 +1,5 @@
 ---
-isDraft: true
+isDraft: false
 lang: pt-BR
 title: Como eu estudei Kanji
 description: RTK, SRS (Anki), Koohii, mnemônicos e o bom e velho papel e caneta,
