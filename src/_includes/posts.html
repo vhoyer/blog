@@ -22,4 +22,21 @@ prism: true
     <article class="mx-auto my-4 prose lg:prose-xl">
         {{ content | safe }}</article>
 
+    <footer>
+        <hr class="my-5 border-gray-100">
+
+        <span class="px-2 py-1 mr-4 bg-gray-200">Tags:</span>
+        <nav class="inline-block">
+            <ul class="inline-flex gap-4">
+                {% for tag in tags %}
+                    {% if tag != "post" %}
+                        <li class="px-2 py-1 bg-gray-100">
+                            <a href="/tags/{{ tag | slug }}">{{ tag }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </nav>
+    </footer>
+
 </div>
