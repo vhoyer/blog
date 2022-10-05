@@ -12,8 +12,6 @@ tags:
   - Links List
   - Hacktoberfest
 ---
-# Sugestões de issue pra Hacktoberfest
-
 Sugestões de repos (em alguns pode ser preciso pedir para colocarem a label do evento):
 
 - [gympass/yoga](https://github.com/gympass/yoga)
