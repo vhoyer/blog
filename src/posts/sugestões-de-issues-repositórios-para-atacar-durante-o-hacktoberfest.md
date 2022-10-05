@@ -9,6 +9,7 @@ author: Vinícius Hoyer
 date: 2022-10-05T15:29:39.274Z
 tags:
   - Tech
+  - Links List
 ---
 # Sugestões de issue pra Hacktoberfest
 
