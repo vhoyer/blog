@@ -10,6 +10,7 @@ date: 2022-10-05T15:29:39.274Z
 tags:
   - Tech
   - Links List
+  - Hacktoberfest
 ---
 # Sugestões de issue pra Hacktoberfest
 
