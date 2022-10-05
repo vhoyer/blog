@@ -8,6 +8,7 @@ author: Vinícius Hoyer
 date: 2022-10-04T18:35:40.859Z
 tags:
   - Tech
+  - Hacktoberfest
 ---
 Todos organizando, participando, palestrando, patrocinando e voluntariando em um evento da comunidade Hacktoberfest são obrigados a concordar a seguir o seguinte código de conduta. Organizadores dos eventos da comunidade Hacktoberfest e/ou funcionários da DigitalOcean irão impor esse código durante o evento. Nós esperamos cooperação de todos os participantes a ajudar a garantir um ambiente seguro.
 
