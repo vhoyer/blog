@@ -18,4 +18,7 @@ Minhas sugestões de repos (em alguns pode ser preciso pedir para colocarem a la
 - [juntossomosmais/venice](https://github.com/juntossomosmais/venice)
 - [eslint-plugin-vuejs-accessibility/issues](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility/labels/good%20first%20issue)
 - [directus](https://github.com/directus/directus/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+First+Issue%22)
+
+
 -﻿ [timedReport](https://github.com/vhoyer/timedReport/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+-﻿ [lazy-let](https://github.com/vhoyer/lazy-let/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
