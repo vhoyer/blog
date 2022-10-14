@@ -19,6 +19,8 @@ Minhas sugestões de repos (em alguns pode ser preciso pedir para colocarem a la
 - [eslint-plugin-vuejs-accessibility/issues](https://github.com/vue-a11y/eslint-plugin-vuejs-accessibility/labels/good%20first%20issue)
 - [directus](https://github.com/directus/directus/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+First+Issue%22)
 
-
+Esses são meus repositórios, porque eles precisam de mais amor:
 -﻿ [timedReport](https://github.com/vhoyer/timedReport/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 -﻿ [lazy-let](https://github.com/vhoyer/lazy-let/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+
+Se você tiver alguma sugestão de outros repositórios que você gostaria de ver aqui, enquanto eu não arrumo uma seção de comentários, pode mandar uma criar uma thread aqui: <https://github.com/vhoyer/vhoyer/issues/new>.
