@@ -14,9 +14,7 @@ tags:
 ---
 Sugestões de repos (alguns vai ser preciso pedir para colocarem a label do evento):
 
-Hacktoberfest
-
-Frontend
+## Frontend
 
 Very Easy
 - <https://github.com/alexpate/awesome-design-systems>
@@ -72,7 +70,7 @@ Hard
 - <https://github.com/logaretm/vee-validate>
 - <https://github.com/storybookjs/storybook/issues>
 
-Ruby
+## Ruby
 
 Indicação do João
 - <https://github.com/rubyforgood/casa>
