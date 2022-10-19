@@ -63,7 +63,7 @@ company I work for, decided to do was to use a `Makefile` to run the multiple
 commands, only requiring the container to run `make quero-boot-startup`
 (quero-boot being the name of the project containing the docker-compose setup).
 
-```make
+```makefile
 quero-boot-startup:
 	npm install
 	npm start
