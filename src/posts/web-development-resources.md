@@ -85,5 +85,6 @@ tags:
 - PWA as Native App: <https://github.com/GoogleChromeLabs/bubblewrap>
 - Validador de HTML: <https://validator.w3.org/nu/#textarea>
 - Google's code review best practices: <https://github.com/google/eng-practices>
+-﻿ How CORS Works: <https://javascript.info/fetch-crossorigin>
 
 Will keep updating this as time goes on. Maybe even removing stuff.
