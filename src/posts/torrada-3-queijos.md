@@ -26,18 +26,17 @@ tags:
 
 ## Fazendo
 
+
 1. fio de azeite no pão;
 1. passa o Cream Cheese ou Catupiri no pão;
 1. adiciona a cenoura ralada;
-
-  ![colocando a cenoura](/static/img/uploads/untitled1.jpg "colocando a cenoura")
 1. coloca as rodelas de provolone no pão;
 1. joga o orégano por cima;
-
-  ![antes de colocar no forno](/static/img/uploads/untitled.jpg "antes de colocar no forno")
 1. rala um parmesão por cima se quiser;
 1. põe no forno até dourar;
 
 E ta pronto a torradinha;
 
-![Torrada pronta](/static/img/uploads/untitled2.jpg "Torrada pronta")
+| antes da cenoura | antes do forno | torrada pronta |
+|-|-|-|
+| ![antes da cenoura](/static/img/uploads/untitled1.jpg) | ![antes de colocar no forno](/static/img/uploads/untitled.jpg) | ![Torrada pronta](/static/img/uploads/untitled2.jpg "Torrada pronta") |
