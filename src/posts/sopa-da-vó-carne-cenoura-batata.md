@@ -8,28 +8,47 @@ date: 2022-08-31T17:17:27.378Z
 tags:
   - cooking
 ---
+
 ## Ingredientes
 
-* carne de boi ([acém](https://pt.wikipedia.org/wiki/Ac%C3%A9m)*, [músculo](https://pt.wikipedia.org/wiki/M%C3%BAsculo_dianteiro), [coxão mole](https://pt.wikipedia.org/wiki/Cox%C3%A3o_mole), o que tiver em casa);
-* cenoura;
-* batata;
-* macarrão tubinho/ave maria/bucatini bem curtinho;
-* [coloral](https://pt.wikipedia.org/wiki/Anato);
+* 500g de carne de boi ([acém](https://pt.wikipedia.org/wiki/Ac%C3%A9m)*, [músculo](https://pt.wikipedia.org/wiki/M%C3%BAsculo_dianteiro), [coxão mole](https://pt.wikipedia.org/wiki/Cox%C3%A3o_mole), o que tiver em casa);
+* 2 cenouras;
+* 2 batatas;
+* 100g de macarrão tubinho/ave maria/bucatini bem curtinho;
+* [coloral](https://pt.wikipedia.org/wiki/Anato) a gosto;
 * sal a gosto;
-* outros temperos a gosto (ou o que tiver em casa também).
+* cebola a gosto;
+* alho a gosto;
+* outros temperos a gosto (ou o que tiver em casa também):
+    * cebolinha
+    * pimentão
+    * vinagre
+    * cominho
+    * ...
 
 \* da preferência da vó é acém.
 
-## Preparando
+## Preparação
 
-1. Cozinha a carne picadinha na água até ficar molinha, reserva;
-2. Descasca cenoura e pica em cubo de uns 2cm³;
-3. Coloca a cenoura pra cozinhar;
-4. Descasca a batata e pique-a em cubos, também de 2cm³;
-5. Adiciona a batata na panela da cenoura;
-6. Adiciona a carne junto com o caldo;
-7. Adiciona sal a gosto;
-8. Coloca o resto dos temperos a gosto (cuminho, cebolinha, pimentão, vinagre, etc);
-9. Coloca coloral (importante pra corzinha bonita);
-10. Quando a batata estiver quase pronta, adicione o macarrão;
-11. Vai mexendo o macarrão pra ele não grudar no fundo até ele ficar pronto.
+1. descascar e cortar em [brunoise](https://en.wikipedia.org/wiki/Brunoise) cebola e alho;
+1. cortar a carne em cubinhos de 1.5cm de lado, ela vai dimiuir um pouco,
+   quando cozir, mas o ideal é que depois de pronto fique do mesmo tamanho da
+   cenoura e batata (quanto mais tempo a carne ficar temperando, melhor);
+1. temperar a carne com a cebola, alho, sal, pimenta, vinagre e reserva;
+1. corta a cenoura em cubos de 1cm de lado e reserva;
+1. corta a batata em cubos de 1cm de lado e reserva;
+1. prepare os outros temperos, como cebolinha se tiver pra cortar, e separar os
+   outro temperos que vão ser usados;
+1. coloca mais ou menos um litro de água pra ferver;
+
+## Fazendo
+
+1. Refoga a carne reservada direto na panela de pressão até quase não ter mais água;
+1. Adiciona a cenoura, uma mexida de 1 minutinho, e coloca água até cobrir a carne a cenoura;
+1. Tampa a panela de pressão e deixa em pressão por 20min;
+1. Tire da pressão, adiciona a batata e os outros temperos;
+1. Se precisar coloque mais água;
+1. Quando a batata estiver adicione o macarrão;
+1. Vai mexendo o macarrão pra ele não grudar no fundo da panela até ele ficar ao dente;
+
+E ta pronta a sopinha.
