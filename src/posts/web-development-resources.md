@@ -82,6 +82,7 @@ tags:
 - <https://www.skypack.dev/>
 - <https://datastudio.google.com/>
 - <https://regex101.com/>
+- <https://extendsclass.com/regex-tester.html>
 - PWA as Native App: <https://github.com/GoogleChromeLabs/bubblewrap>
 - Validador de HTML: <https://validator.w3.org/nu/#textarea>
 - Google's code review best practices: <https://github.com/google/eng-practices>
