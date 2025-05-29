@@ -1,5 +1,5 @@
 ---
-isDraft: false
+isDraft: true
 lang: en
 title: Web development resources
 description: Just a list of links that are interesting and I want to keep than
