@@ -8,7 +8,7 @@ description: Eu não tenho idea do que tava passando pela minha cabeçao, o nome
 author: Vinícius Hoyer
 date: 2026-01-07T12:09:00.000-03:00
 tags:
-  - Language Learning
+  - Life
 ---
 Eu não tenho idea do que tava passando pela minha cabeçao, o nome do arquivo era "roteiros/o-jardineiro-da-escuriao.md" e eu achei engraçado demais pra só deletar, então eu tô "eternizando" ele aqui. Segue o texto na íntegra:
 
