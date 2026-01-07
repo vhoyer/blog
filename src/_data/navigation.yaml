@@ -11,3 +11,5 @@ items:
     url: /tags/code-review
   - url: /tags/cooking
     text: Cookbook
+  - text: Life
+    url: /tags/life
