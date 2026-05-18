@@ -10,15 +10,17 @@ date: 2026-05-18T16:24:00.000-03:00
 tags:
   - cooking
 ---
+
+
 Rende duas porções; não tenho certeza quanto tempo levou, coisa de 30min acho;
 
 ## ingredientes
 
-* 2 maças em cubo, sem casca, sem o centro
-* noz moscada ralada a gosto
-* 1/4 de limão espremido
-* uma pitada de sal
-* 1/2 colher de sopa de açucar
+* 2 maças em cubo, sem casca, sem o centro;
+* noz moscada ralada a gosto;
+* 1/4 de limão espremido;
+* uma pitada de sal;
+* 1/2 colher de sopa de açucar;
 
 ## preparo
 
@@ -28,3 +30,5 @@ Rende duas porções; não tenho certeza quanto tempo levou, coisa de 30min acho
 4. ai cê amassa bem a maça 
 
 ![o purê num prato junto com carne de porco e arroz](/static/img/uploads/20260518_130451.jpg)
+
+Eu devia ter tirado uma foto exclusiva do purê, mas enfim o melhor que cê vai conseguir é essa foto do almoço de hoje.
